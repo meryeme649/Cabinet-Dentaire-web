@@ -31,7 +31,7 @@ footer{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url(heroimage.jpeg);
+    background: url(image.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -97,7 +97,7 @@ overflow: hidden;
 }
 .services{
     height: 100vh;
-    background: url(heroimage.jpeg);
+    background: url(image.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -148,7 +148,7 @@ height: 20%;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url(heroimage.jpeg);
+    background: url(image.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
