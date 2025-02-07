@@ -1,0 +1,174 @@
+html{
+    font-family: Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    width: 130px;
+    
+}
+header nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: large;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(heroimage.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home .title{
+    background-color:white;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home .title1{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+}
+.home form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    background-color: rgb(230, 222, 222);
+    border-radius: 5px;
+}
+form div {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form input:not(input[type="submit"]){
+    height: 30px;
+    width: 80%;
+}
+form input[type="submit"]{
+    background-color: rgb(82, 205, 243);
+    color: rgb(32, 32, 32);
+    width: 80px;
+    height: 40px;
+}
+.about{
+    display:flex ;
+    padding: 80px;
+    background-color: rgb(220, 235, 235);
+
+}
+.about img{
+
+    height: 700px;
+}
+.about div{
+    height: 700px;   background-color:white;
+    overflow: hidden;
+}
+.about p{
+color:rgb(0, 0, 12);
+overflow: hidden;
+}
+.services{
+    height: 100vh;
+    background: url(heroimage.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.services .divider{
+height: 20%;
+}
+.services .container{
+    position: relative;
+    bottom: 0;
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    
+}
+.services .card{
+ border-radius: 10px;
+ display: flex;
+ flex-direction:column ;
+ justify-content: space-around;
+ align-items: center;
+ background-color: #e5eff0;
+ transition: 400ms ease-in-out;
+
+}
+.services .card:hover{
+  transform: scale(1.05,1.05);
+}
+.services h2{
+    color: rgb(4, 168, 233);
+}
+.services img{
+    height:300px;
+    width:300px;
+    padding: 20px;
+    border-radius: 30px;
+}
+.services p{
+    text-align: justify;
+    width:200px;
+    height:200px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(heroimage.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Contact-info h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(10, 10, 10);  
+}
+.contact .container{
+    border-radius: 30px;
+    max-width: 0000px;
+    min-width: 800px;
+    background: linear-gradient(135deg, #7a7979, #eaeef3af);
+    backdrop-filter:blur(7px);
+   
+}
+.contact .container p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(58, 57, 57);
+}
